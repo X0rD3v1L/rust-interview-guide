@@ -37,7 +37,7 @@ Hide/Show table of contents
 
 ## Fundamentals
 
-### 1. What is Rust, and where is it mostly used?
+1. ### What is Rust, and where is it mostly used?
 
 Rust is a modern, general-purpose systems programming language designed with a strong emphasis on performance, memory safety, and concurrency. Unlike traditional systems languages like C or C++, Rust eliminates entire classes of bugs at compile time—such as null pointer dereferencing, buffer overflows, and data races—without relying on a garbage collector.
 
@@ -59,7 +59,7 @@ Rust is used in below areas,
 
 ---
 
-### 2. What are ownership and borrowing in Rust?
+2. ### What are ownership and borrowing in Rust?
 
 **Ownership** and **borrowing** are foundational concepts in Rust that allow it to manage memory safely and efficiently without the need for a garbage collector.
 
@@ -85,7 +85,7 @@ By enforcing these strict but predictable rules at compile time, Rust ensures **
 
 ---
 
-### 3. What are lifetimes in Rust?
+3. ### What are lifetimes in Rust?
 
 **Lifetimes** are annotations used by Rust’s type system to track how long references are valid. They ensure that references do not outlive the data they point to, preventing **dangling references** at compile time.
 
@@ -122,14 +122,14 @@ Lifetimes don’t change how long a value lives at runtime—they're only used d
 
 ---
 
-### 4. How is memory allocated for a `String` type in Rust?
+4. ### How is memory allocated for a `String` type in Rust?
 
 ```rust
 todo!()
 ```
 ---
 
-### 5. What is `&str` in Rust, and where is it stored?
+5. ### What is `&str` in Rust, and where is it stored?
 
 ```rust
 todo!()
@@ -139,7 +139,7 @@ todo!()
 
 ## Concurrency & Asynchronous Programming
 
-### 6. What are `async` and `await` in Rust?
+6. ### What are `async` and `await` in Rust?
 
 Rust’s `async` and `await` keywords enable **asynchronous programming**, allowing tasks to be performed **concurrently** without blocking the thread.
 
@@ -158,7 +158,7 @@ Rust’s async model is **zero-cost**, meaning you don’t pay extra at runtime 
 
 ---
 
-### 7. Explain Tokio and where it is used.
+7. ### Explain Tokio and where it is used.
 
 ```rust
 todo!()
@@ -166,14 +166,14 @@ todo!()
 
 ---
 
-### 8. What is pinning in Rust, and why is it important?
+8. ### What is pinning in Rust, and why is it important?
 
 ```rust
 todo!()
 ```
 
 ---
-### 9. How do we handle errors in Rust?
+9. ### How do we handle errors in Rust?
 
 Rust categorizes errors into two types:
 
@@ -230,7 +230,7 @@ In this example:
 
 ## Error Handling & Unsafe Code
 
-### 10. How does the `?` operator simplify error handling in Rust?
+10. ### How does the `?` operator simplify error handling in Rust?
 
 The `?` operator in Rust is a **convenient shorthand** for **propagating errors** in functions that return a `Result` or `Option`.
 
@@ -268,7 +268,7 @@ fn read_file(path: &str) -> Result<String, std::io::Error> {
 By using `?`, developers can **avoid deep nesting** and **focus on the success path**, while still correctly handling errors. This contributes to **cleaner and more maintainable** Rust code.
 
 ---
-### 11. What is unsafe Rust? Explain with an example.
+11. ### What is unsafe Rust? Explain with an example.
 
 **Unsafe Rust** allows developers to perform low-level operations that bypass Rust's usual safety guarantees. This includes operations like:
 
@@ -302,7 +302,7 @@ fn main() {
 
 ## Advanced Concepts
 
-### 12. What are generics in Rust?
+12. ### What are generics in Rust?
 
 **Generics** are a powerful feature in Rust that allow you to write flexible, reusable, and type-safe code. They enable you to define **functions, structs, enums, and traits** with **placeholders for types**, which are filled in with concrete types when used.
 
@@ -343,7 +343,7 @@ fn main() {
 Trait bounds (e.g., `T: Add<Output = T>`) **restrict** the types that can be used with generics. This ensures that only types which implement the specified traits can be substituted, enabling type-safe operations like `+`, `==`, etc.
 
 ---
-### 13. How do you implement inheritance in Rust?
+13. ### How do you implement inheritance in Rust?
 
 In many object-oriented languages like Java or C++, **inheritance** allows a class to inherit fields and methods from another class. This enables code reuse and establishes an `is-a` relationship between classes. For example, a `Dog` class might inherit from an `Animal` class, automatically gaining all properties and behaviors of `Animal`.
 
@@ -400,7 +400,7 @@ fn main() {
 }
 ```
 ---
-### 14. What is Zero-Cost Abstraction?
+14. ### What is Zero-Cost Abstraction?
 
 **Zero-Cost Abstractions** means that the high-level abstractions Rust provides, such as iterators, closures, traits, and pattern matching, compile down to code that is as efficient as manually written low-level code. In other words, **you don’t pay any runtime performance penalty for using these abstractions** — the compiler optimizes them away.
 
@@ -454,14 +454,14 @@ Zero-cost abstraction means **using idiomatic Rust abstractions doesn’t cost y
 
 ## Memory Management & Smart Pointers
 
-### 15. What is the possibility of memory leaks in Rust?
+15. ### What is the possibility of memory leaks in Rust?
 
 ```rust
 todo!()
 ```
 
 ---
-### 16. What are Smart Pointers? Explain `Box`, `Rc`, `Arc`.
+16. ### What are Smart Pointers? Explain `Box`, `Rc`, `Arc`.
 
 **Smart Pointers** in Rust are types that not only act like regular pointers but also have additional capabilities, such as automatic memory management, reference counting, or thread safety.
 
