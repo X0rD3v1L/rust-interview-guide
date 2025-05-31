@@ -57,6 +57,7 @@ Rust is used in below areas,
 
 **Concurrent Systems:** Thanks to fearless concurrency, Rust is well-suited for building multithreaded servers and distributed systems.
 
+**[⬆ Back to Top](#table-of-contents)**
 ---
 
 2. ### What are ownership and borrowing in Rust?
@@ -83,6 +84,7 @@ To guarantee the validity of these references, Rust uses a concept called **life
 
 By enforcing these strict but predictable rules at compile time, Rust ensures **memory safety**, **thread safety**, and **efficient resource management**—all without runtime overhead.
 
+**[⬆ Back to Top](#table-of-contents)**
 ---
 
 3. ### What are lifetimes in Rust?
@@ -120,6 +122,7 @@ Here, we annotate the function with a lifetime `'a`, stating that the returned r
 
 Lifetimes don’t change how long a value lives at runtime—they're only used during **compile time** to check validity of references. They're a key part of what makes Rust **memory-safe without garbage collection**.
 
+**[⬆ Back to Top](#table-of-contents)**
 ---
 
 4. ### How is memory allocated for a `String` type in Rust?
@@ -127,6 +130,8 @@ Lifetimes don’t change how long a value lives at runtime—they're only used d
 ```rust
 todo!()
 ```
+
+**[⬆ Back to Top](#table-of-contents)**
 ---
 
 5. ### What is `&str` in Rust, and where is it stored?
@@ -134,7 +139,7 @@ todo!()
 ```rust
 todo!()
 ```
-
+**[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## Concurrency & Asynchronous Programming
@@ -156,6 +161,7 @@ This model is built around **polling**: the runtime (such as [Tokio](https://tok
 
 Rust’s async model is **zero-cost**, meaning you don’t pay extra at runtime for these abstractions—they compile down to efficient state machines.
 
+**[⬆ Back to Top](#table-of-contents)**
 ---
 
 7. ### Explain Tokio and where it is used.
@@ -163,7 +169,7 @@ Rust’s async model is **zero-cost**, meaning you don’t pay extra at runtime 
 ```rust
 todo!()
 ```
-
+**[⬆ Back to Top](#table-of-contents)**
 ---
 
 8. ### What is pinning in Rust, and why is it important?
@@ -171,7 +177,7 @@ todo!()
 ```rust
 todo!()
 ```
-
+**[⬆ Back to Top](#table-of-contents)**
 ---
 9. ### How do we handle errors in Rust?
 
@@ -226,6 +232,7 @@ In this example:
 * `divide()` uses `Result` to indicate a possible failure (division by zero).
 * `get_value()` handles the absence of a value using `Option`.
 
+**[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## Error Handling & Unsafe Code
@@ -267,6 +274,7 @@ fn read_file(path: &str) -> Result<String, std::io::Error> {
 
 By using `?`, developers can **avoid deep nesting** and **focus on the success path**, while still correctly handling errors. This contributes to **cleaner and more maintainable** Rust code.
 
+**[⬆ Back to Top](#table-of-contents)**
 ---
 11. ### What is unsafe Rust? Explain with an example.
 
@@ -298,6 +306,7 @@ fn main() {
     */
 }
 ```
+**[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## Advanced Concepts
@@ -342,6 +351,7 @@ fn main() {
 
 Trait bounds (e.g., `T: Add<Output = T>`) **restrict** the types that can be used with generics. This ensures that only types which implement the specified traits can be substituted, enabling type-safe operations like `+`, `==`, etc.
 
+**[⬆ Back to Top](#table-of-contents)**
 ---
 13. ### How do you implement inheritance in Rust?
 
@@ -399,6 +409,7 @@ fn main() {
     dog.walk();
 }
 ```
+**[⬆ Back to Top](#table-of-contents)**
 ---
 14. ### What is Zero-Cost Abstraction?
 
@@ -450,6 +461,7 @@ Both programs produce the **same machine code** after optimizations, but the fir
 
 Zero-cost abstraction means **using idiomatic Rust abstractions doesn’t cost you runtime performance**, because the compiler generates highly optimized code equivalent to what you’d write manually.
 
+**[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## Memory Management & Smart Pointers
@@ -460,6 +472,7 @@ Zero-cost abstraction means **using idiomatic Rust abstractions doesn’t cost y
 todo!()
 ```
 
+**[⬆ Back to Top](#table-of-contents)**
 ---
 16. ### What are Smart Pointers? Explain `Box`, `Rc`, `Arc`.
 
@@ -554,4 +567,6 @@ Use `Arc<T>` when:
 
 * You need to share data between threads safely.
 * You're working in a concurrent/multithreaded environment.
+
+**[⬆ Back to Top](#table-of-contents)**
 ---
