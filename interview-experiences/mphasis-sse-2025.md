@@ -137,4 +137,4 @@
 * Have a strong grip on Rust’s ownership and concurrency model with clear explanations.
 * Be prepared to explain at least one Rust project end-to-end.
 * Practice LeetCode Medium problems in Rust, especially sliding window patterns.
-* Expect follow-up questions that test practical understanding of thread safety and shared state.
+* Expect follow-up questions that test practical understanding of thread safety and shared state. 
