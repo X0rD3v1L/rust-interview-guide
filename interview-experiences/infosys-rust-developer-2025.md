@@ -29,6 +29,7 @@
     * Ownership and borrowing explained with examples.
     * `Copy` vs `Move` semantics in Rust.
     * Difference between `String` and `&str`.
+    * Difference between `enum` and `struct`.
   * Output-based question on ownership and borrowing.
   * Practical coding/design question:
 
