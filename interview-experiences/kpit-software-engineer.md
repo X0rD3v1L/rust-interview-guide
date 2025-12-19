@@ -49,6 +49,7 @@
     * Channels in Rust
   * Explain **zero-cost abstractions** in Rust.
   * Explain the **interior mutability pattern**.
+  * Explain about **macros in Rust**.
   * Discussion on **unsafe Rust** and when/why it is required.
 
 * **Discussion Points**:
