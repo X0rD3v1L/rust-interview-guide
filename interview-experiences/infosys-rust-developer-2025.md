@@ -15,7 +15,7 @@
 
 ### 1. **Technical Interview**
 
-* **Duration**: ~30 minutes
+* **Duration**: ~60 minutes
 * **Format**: Technical discussion + Problem-solving
 * **Questions Asked**:
 
