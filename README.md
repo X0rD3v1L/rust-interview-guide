@@ -1,4 +1,37 @@
-# Rust Interview Questions & Answers
+# Rust Interview Guide
+
+A community-driven collection of **real Rust interview experiences** and **Rust interview Q&A**, open for everyone to read and contribute to.
+
+If you have interviewed for a Rust role — successfully or not — your experience can help the next person prepare. See [CONTRIBUTING.md](CONTRIBUTING.md) to add yours.
+
+---
+
+## Interview Experiences
+
+Real accounts of Rust interviews at companies across India and beyond, including questions asked, coding problems, and tips from candidates who've been through them.
+
+| Company | Role | Experience Level | Year | Result |
+|---|---|---|---|---|
+| [Aifa Labs](interview-experiences/aifa-labs/rust-developer-2024-02.md) | Rust Developer | 0–1 years | Feb 2024 | Offer Extended |
+| [Chingari](interview-experiences/chingari/rust-developer-2025-01.md) | Rust Developer | 2 years | Jan 2025 | Offer Extended |
+| [Fortanix](interview-experiences/fortanix/software-engineer-2025.md) | Software Engineer | 4 years | 2025 | Rejected |
+| [FxDx](interview-experiences/fxdx/rust-developer-2024-12.md) | Rust Developer | 2 years | Dec 2024 | Ghosted |
+| [Infosys](interview-experiences/infosys/rust-developer-2025.md) | Rust Developer | 3 years | 2025 | Not Communicated |
+| [KPIT](interview-experiences/kpit/software-engineer-2025.md) | Software Engineer | 3–6 years | 2025 | Rejected |
+| [Mizzle Cloud](interview-experiences/mizzlecloud/rust-developer-2024-06.md) | Senior Rust Developer | 3–4 years | Jun 2024 | Offer Extended |
+| [Mphasis](interview-experiences/mphasis/senior-software-engineer-2025-05.md) | Senior Software Engineer | 3–5 years | May 2025 | Selected |
+| [SquarePoint Capital](interview-experiences/squarepoint-capital/software-developer-2025-04.md) | Software Developer | 4 years | Apr 2025 | Rejected |
+| [YRAL](interview-experiences/yral/rust-developer-2024-08.md) | Rust Developer | 3–4 years | Aug 2024 | Rejected |
+| [Zzazz](interview-experiences/zzazz/rust-developer-2025.md) | Rust Developer | 3–6 years | 2025 | Neutral |
+
+> **Want to add your experience?** Read the [contribution guide](CONTRIBUTING.md) and open a PR — it takes about 15 minutes.
+> Each company has its own folder in `interview-experiences/`, so multiple people can contribute for the same company. Add a row to this table in your PR too.
+
+---
+
+## Interview Q&A
+
+Common Rust interview questions with detailed answers. Covers fundamentals through advanced topics.
 
 ### Table of Contents
 
