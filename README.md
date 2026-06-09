@@ -22,6 +22,18 @@ Real accounts of Rust interviews at companies across India and beyond, including
 
 ---
 
+## Help Wanted
+
+These Q&A answers are missing. If you know the answer, open a PR — it is the easiest way to contribute:
+
+* [ ] [How is memory allocated for a `String` type in Rust?](#how-is-memory-allocated-for-a-string-type-in-rust)
+* [ ] [What is `&str` in Rust, and where is it stored?](#what-is-str-in-rust-and-where-is-it-stored)
+* [ ] [Explain Tokio and where it is used.](#explain-tokio-and-where-it-is-used)
+* [ ] [What is pinning in Rust, and why is it important?](#what-is-pinning-in-rust-and-why-is-it-important)
+* [ ] [What is the possibility of memory leaks in Rust?](#what-is-the-possibility-of-memory-leaks-in-rust)
+
+---
+
 ## Interview Q&A
 
 Common Rust interview questions with detailed answers. Covers fundamentals through advanced topics.
@@ -596,3 +608,11 @@ Use `Arc<T>` when:
 
 **[⬆ Back to Top](#table-of-contents)**
 ---
+
+## Contributors
+
+Thanks to everyone who has contributed experiences, answers, and improvements!
+
+<a href="https://github.com/X0rD3v1L/rust-interview-guide/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=X0rD3v1L/rust-interview-guide" />
+</a>

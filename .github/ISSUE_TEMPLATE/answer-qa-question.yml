@@ -1,0 +1,25 @@
+name: Answer a Q&A Question
+description: Provide an answer for one of the unanswered questions in the README
+labels: ["help wanted", "good first issue", "qa"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Unanswered questions are listed in the [Help Wanted](../../README.md#help-wanted) section.
+        You can either fill this form or open a PR directly by editing `README.md`.
+
+  - type: input
+    id: question
+    attributes:
+      label: Question
+      placeholder: e.g. "What is pinning in Rust, and why is it important?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: answer
+    attributes:
+      label: Your Answer
+      description: Include code examples where relevant. Markdown is supported.
+    validations:
+      required: true

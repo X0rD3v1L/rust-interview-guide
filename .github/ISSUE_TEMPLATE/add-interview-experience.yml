@@ -1,0 +1,76 @@
+name: Add Interview Experience
+description: Share your Rust interview experience (use this if you prefer to fill a form instead of directly opening a PR)
+labels: ["interview-experience", "good first issue"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing your experience! Fill in what you remember — partial info is fine.
+        A maintainer will format and add it, or you can open a PR directly using the [template](../../interview-experiences/TEMPLATE.md).
+
+  - type: input
+    id: company
+    attributes:
+      label: Company
+      placeholder: e.g. Google
+    validations:
+      required: true
+
+  - type: input
+    id: role
+    attributes:
+      label: Role
+      placeholder: e.g. Rust Developer / Software Engineer
+    validations:
+      required: true
+
+  - type: input
+    id: date
+    attributes:
+      label: Interview Date
+      placeholder: e.g. Jan 2025
+    validations:
+      required: true
+
+  - type: input
+    id: experience
+    attributes:
+      label: Your Experience Level
+      placeholder: e.g. 2 years in Rust / 4 years overall
+    validations:
+      required: true
+
+  - type: dropdown
+    id: result
+    attributes:
+      label: Result
+      options:
+        - Selected
+        - Offer Extended
+        - Rejected
+        - Ghosted
+        - Neutral
+        - Not Communicated
+    validations:
+      required: true
+
+  - type: textarea
+    id: rounds
+    attributes:
+      label: Interview Rounds
+      description: Describe each round — format, duration, questions asked, coding problems (with links if possible)
+      placeholder: |
+        Round 1 – Technical Interview (~60 min)
+        - Ownership and borrowing
+        - LeetCode: Two Sum (https://leetcode.com/...)
+
+        Round 2 – Live Coding (~60 min)
+        - ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: tips
+    attributes:
+      label: Tips for Future Candidates
+      placeholder: What would you tell someone preparing for this role?
