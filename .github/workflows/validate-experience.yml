@@ -1,0 +1,42 @@
+name: Validate Interview Experience
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "interview-experiences/**/*.md"
+
+jobs:
+  validate:
+    name: Check format & structure
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Find added or modified experience files
+        id: files
+        run: |
+          FILES=$(git diff --name-only --diff-filter=AM \
+            origin/${{ github.base_ref }}...HEAD \
+            | grep '^interview-experiences/.*\.md$' \
+            | grep -v 'TEMPLATE\.md' \
+            || true)
+
+          if [ -z "$FILES" ]; then
+            echo "No experience files to validate."
+            echo "any=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "Files to validate:"
+            echo "$FILES"
+            # Store as newline-delimited, then convert for xargs
+            printf '%s' "$FILES" > /tmp/changed_files.txt
+            echo "any=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Validate experience files
+        if: steps.files.outputs.any == 'true'
+        run: |
+          cat /tmp/changed_files.txt | xargs python3 .github/scripts/validate_experience.py
