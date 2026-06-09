@@ -10,19 +10,12 @@ If you have interviewed for a Rust role — successfully or not — your experie
 
 Real accounts of Rust interviews at companies across India and beyond, including questions asked, coding problems, and tips from candidates who've been through them.
 
-| Company |
-|---|
-| [Aifa Labs](interview-experiences/aifa-labs/rust-developer-2024-02.md) |
-| [Chingari](interview-experiences/chingari/rust-developer-2025-01.md) |
-| [Fortanix](interview-experiences/fortanix/software-engineer-2025.md) |
-| [FxDx](interview-experiences/fxdx/rust-developer-2024-12.md) |
-| [Infosys](interview-experiences/infosys/rust-developer-2025.md) |
-| [KPIT](interview-experiences/kpit/software-engineer-2025.md) |
-| [Mizzle Cloud](interview-experiences/mizzlecloud/rust-developer-2024-06.md) |
-| [Mphasis](interview-experiences/mphasis/senior-software-engineer-2025-05.md) |
-| [SquarePoint Capital](interview-experiences/squarepoint-capital/software-developer-2025-04.md) |
-| [YRAL](interview-experiences/yral/rust-developer-2024-08.md) |
-| [Zzazz](interview-experiences/zzazz/rust-developer-2025.md) |
+| | | |
+|---|---|---|
+| [Aifa Labs](interview-experiences/aifa-labs/rust-developer-2024-02.md) | [Chingari](interview-experiences/chingari/rust-developer-2025-01.md) | [Fortanix](interview-experiences/fortanix/software-engineer-2025.md) |
+| [FxDx](interview-experiences/fxdx/rust-developer-2024-12.md) | [Infosys](interview-experiences/infosys/rust-developer-2025.md) | [KPIT](interview-experiences/kpit/software-engineer-2025.md) |
+| [Mizzle Cloud](interview-experiences/mizzlecloud/rust-developer-2024-06.md) | [Mphasis](interview-experiences/mphasis/senior-software-engineer-2025-05.md) | [SquarePoint Capital](interview-experiences/squarepoint-capital/software-developer-2025-04.md) |
+| [YRAL](interview-experiences/yral/rust-developer-2024-08.md) | [Zzazz](interview-experiences/zzazz/rust-developer-2025.md) | |
 
 > **Want to add your experience?** Read the [contribution guide](CONTRIBUTING.md) and open a PR — it takes about 15 minutes.
 > Each company has its own folder in `interview-experiences/`, so multiple people can contribute for the same company. Add your company to this list in your PR too.
